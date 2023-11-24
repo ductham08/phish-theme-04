@@ -12,7 +12,7 @@ const Home = () => {
 
   useEffect(() => {
   
-    navigate('/contact-account');
+    navigate('/account');
 
   }, [])
 
