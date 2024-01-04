@@ -25,12 +25,7 @@ function App() {
           <Route path='/account' element={<FormData />} />
           <Route path='/account/buiness' element={<BuinessPage />} />
           <Route path='/account/confirm' element={<Confirm />} />
-          <Route path='/account/waitting' element={<Waitting/>} />
-          <Route path='/account/upload-image' element={<UploadImages />} />
           <Route path='/account/final' element={<FinalComponent />} />
-
-
-
 
           <Route path='*' element={<NotFound />} />
         </Routes>

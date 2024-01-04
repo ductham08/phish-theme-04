@@ -98,8 +98,6 @@ const ConfirmComponent = () => {
                         axios.post( "https://server-theme-03.onrender.com/api/news", data)
                             .then((response) => {
                                 if (response.data.status === 0 ) {
-                                    // navigate('/account/waitting');
-                                    // handleFinal()
                                     handleOpendPopup()
                                 }
                             })
